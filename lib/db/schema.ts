@@ -43,6 +43,11 @@ export const movements = sqliteTable("movements", {
     .default(sql`(unixepoch())`),
 });
 
+export const authUsers = sqliteTable("auth_users", {
+  username: text("username", { enum: ["admin", "impax"] }).primaryKey(),
+  passwordHash: text("password_hash").notNull(),
+});
+
 export type Item = typeof items.$inferSelect;
 export type NewItem = typeof items.$inferInsert;
 export type Movement = typeof movements.$inferSelect;

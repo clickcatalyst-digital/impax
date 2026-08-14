@@ -2,7 +2,7 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
-import { LogOut, Package2 } from "lucide-react";
+import { Cog, LogOut, Package2 } from "lucide-react";
 import { getCurrentUser } from "@/lib/auth";
 import { logoutAction } from "@/app/actions";
 import { Button } from "@/components/ui/button";
@@ -28,14 +28,14 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <div className="flex min-h-screen flex-col">
           {user && (
             <header className="sticky top-0 z-40 border-b border-border/70 bg-card/90 backdrop-blur">
-              <div className="container flex h-16 items-center justify-between gap-4">
+              <div className="container flex flex-wrap items-center justify-between gap-3 py-3 sm:h-16 sm:flex-nowrap sm:py-0">
                 <Link href="/" className="flex items-center gap-2.5">
                   <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm">
                     <Package2 className="h-4 w-4" />
                   </span>
                   <span className="hidden text-sm font-semibold tracking-tight sm:inline">Impax Inventory</span>
                 </Link>
-                <nav className="flex items-center gap-1 rounded-lg bg-muted/70 p-1">
+                <nav className="order-3 flex w-full items-center justify-center gap-1 rounded-lg bg-muted/70 p-1 sm:order-none sm:w-auto sm:justify-start">
                   {navItems.map((item) => (
                     <Link
                       key={item.href}
@@ -48,6 +48,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 </nav>
                 <div className="flex items-center gap-2">
                   <span className="hidden text-xs text-muted-foreground md:inline">{user.username}</span>
+                  <Button asChild type="button" size="icon" variant="ghost">
+                    <Link href="/settings" aria-label="Settings" title="Settings">
+                      <Cog className="h-4 w-4" />
+                    </Link>
+                  </Button>
                   <form action={logoutAction}>
                     <Button type="submit" size="icon" variant="ghost" aria-label="Sign out" title="Sign out">
                       <LogOut className="h-4 w-4" />

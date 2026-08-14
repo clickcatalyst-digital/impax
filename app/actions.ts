@@ -2,18 +2,32 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { authenticate, clearAuthSession, createAuthSession, requireUser } from "@/lib/auth";
+import { authenticate, changePassword, clearAuthSession, createAuthSession, requireUser } from "@/lib/auth";
 import { addItem, deleteItem, recordMovement, updateItem } from "@/lib/db/queries";
 
 export async function loginAction(formData: FormData) {
   const username = String(formData.get("username") || "").trim().toLowerCase();
   const password = String(formData.get("password") || "");
-  const user = authenticate(username, password);
+  const user = await authenticate(username, password);
 
   if (!user) return { error: "Incorrect username or password." };
 
   await createAuthSession(user);
   redirect("/");
+}
+
+export async function changePasswordAction(
+  formData: FormData
+): Promise<{ error: string; success?: never } | { success: string; error?: never }> {
+  const user = await requireUser();
+  const currentPassword = String(formData.get("currentPassword") || "");
+  const nextPassword = String(formData.get("nextPassword") || "");
+  const confirmPassword = String(formData.get("confirmPassword") || "");
+
+  if (nextPassword.length < 6) return { error: "New password must be at least 6 characters." };
+  if (nextPassword !== confirmPassword) return { error: "New passwords do not match." };
+
+  return changePassword(user.username, currentPassword, nextPassword);
 }
 
 export async function logoutAction() {

@@ -1,5 +1,10 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
+import { promisify } from "node:util";
+import { randomBytes, scrypt as scryptCallback, timingSafeEqual } from "node:crypto";
+import { eq } from "drizzle-orm";
+import { db } from "./db/client";
+import { authUsers } from "./db/schema";
 import { createSessionValue, SESSION_COOKIE, SESSION_TTL_SECONDS, verifySessionValue } from "./session";
 
 const users = {
@@ -9,11 +14,60 @@ const users = {
 
 export type AuthUser = { username: keyof typeof users };
 
-export function authenticate(username: string, password: string): AuthUser | null {
-  if (username in users && users[username as keyof typeof users] === password) {
-    return { username: username as keyof typeof users };
+const scrypt = promisify(scryptCallback);
+
+async function hashPassword(password: string) {
+  const salt = randomBytes(16).toString("hex");
+  const key = (await scrypt(password, salt, 64)) as Buffer;
+  return salt + ":" + key.toString("hex");
+}
+
+async function verifyPassword(password: string, storedHash: string) {
+  const [salt, hash] = storedHash.split(":");
+  if (!salt || !hash) return false;
+  const storedKey = Buffer.from(hash, "hex");
+  const suppliedKey = (await scrypt(password, salt, storedKey.length)) as Buffer;
+  return storedKey.length === suppliedKey.length && timingSafeEqual(storedKey, suppliedKey);
+}
+
+async function getStoredUser(username: keyof typeof users) {
+  const [user] = await db.select().from(authUsers).where(eq(authUsers.username, username));
+  return user;
+}
+
+export async function authenticate(username: string, password: string): Promise<AuthUser | null> {
+  if (!(username in users)) return null;
+  const validUsername = username as keyof typeof users;
+  const storedUser = await getStoredUser(validUsername);
+
+  if (storedUser) {
+    return (await verifyPassword(password, storedUser.passwordHash)) ? { username: validUsername } : null;
   }
-  return null;
+
+  if (users[validUsername] !== password) return null;
+
+  await db.insert(authUsers).values({
+    username: validUsername,
+    passwordHash: await hashPassword(password),
+  }).onConflictDoNothing();
+  return { username: validUsername };
+}
+
+export async function changePassword(username: keyof typeof users, currentPassword: string, nextPassword: string) {
+  const storedUser = await getStoredUser(username);
+  const currentPasswordIsValid = storedUser
+    ? await verifyPassword(currentPassword, storedUser.passwordHash)
+    : users[username] === currentPassword;
+
+  if (!currentPasswordIsValid) return { error: "Current password is incorrect." };
+
+  const passwordHash = await hashPassword(nextPassword);
+  if (storedUser) {
+    await db.update(authUsers).set({ passwordHash }).where(eq(authUsers.username, username));
+  } else {
+    await db.insert(authUsers).values({ username, passwordHash });
+  }
+  return { success: "Password updated successfully." };
 }
 
 export async function createAuthSession(user: AuthUser) {
