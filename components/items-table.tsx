@@ -62,6 +62,7 @@ export function ItemsTable({
           No items match “{search}”.
         </div>
       ) : (
+        <div className="overflow-hidden rounded-xl border border-border/70 bg-card shadow-sm shadow-black/[0.02]">
         <Table>
           <TableHeader>
             <TableRow>
@@ -109,6 +110,7 @@ export function ItemsTable({
             ))}
           </TableBody>
         </Table>
+        </div>
       )}
     </div>
   );

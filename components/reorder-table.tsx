@@ -10,10 +10,13 @@ export function ReorderTable({
   items: ItemWithStock[];
 }) {
   return (
-    <div>
-      <h3 className="mb-2 text-sm font-medium text-muted-foreground">{title}</h3>
+    <div className="overflow-hidden rounded-xl border border-border/70 bg-card shadow-sm shadow-black/[0.02]">
+      <div className="border-b border-border/70 px-5 py-4">
+        <h3 className="text-sm font-semibold">{title}</h3>
+        <p className="mt-1 text-xs text-muted-foreground">Items below minimum quantity</p>
+      </div>
       {items.length === 0 ? (
-        <p className="rounded-lg border border-dashed border-border py-6 text-center text-sm text-muted-foreground">
+        <p className="px-5 py-8 text-center text-sm text-muted-foreground">
           Nothing below minimum right now.
         </p>
       ) : (

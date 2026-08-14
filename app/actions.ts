@@ -1,9 +1,28 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
+import { authenticate, clearAuthSession, createAuthSession, requireUser } from "@/lib/auth";
 import { addItem, deleteItem, recordMovement, updateItem } from "@/lib/db/queries";
 
+export async function loginAction(formData: FormData) {
+  const username = String(formData.get("username") || "").trim().toLowerCase();
+  const password = String(formData.get("password") || "");
+  const user = authenticate(username, password);
+
+  if (!user) return { error: "Incorrect username or password." };
+
+  await createAuthSession(user);
+  redirect("/");
+}
+
+export async function logoutAction() {
+  await clearAuthSession();
+  redirect("/login");
+}
+
 export async function createItemAction(formData: FormData) {
+  await requireUser();
   const category = formData.get("category") as "stock" | "pcb";
 
   await addItem({
@@ -23,6 +42,7 @@ export async function createItemAction(formData: FormData) {
 }
 
 export async function recordMovementAction(formData: FormData) {
+  await requireUser();
   const itemId = Number(formData.get("itemId"));
   const direction = formData.get("direction") as "in" | "out";
   const qty = Number(formData.get("qty"));
@@ -36,6 +56,7 @@ export async function recordMovementAction(formData: FormData) {
 }
 
 export async function updateItemAction(formData: FormData) {
+  await requireUser();
   const id = Number(formData.get("id"));
   const category = formData.get("category") as "stock" | "pcb";
 
@@ -55,6 +76,7 @@ export async function updateItemAction(formData: FormData) {
 }
 
 export async function deleteItemAction(formData: FormData) {
+  await requireUser();
   await deleteItem(Number(formData.get("id")));
 
   revalidatePath("/");
