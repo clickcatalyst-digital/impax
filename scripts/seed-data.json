@@ -1,0 +1,2217 @@
+{
+  "stock": [
+    {
+      "group": "BLUETOOTH",
+      "item": "HC 05",
+      "data": "BLUE TOOTH",
+      "type": null,
+      "opening_balance": 1000,
+      "price": 230,
+      "min_qty": 500
+    },
+    {
+      "group": "BUG",
+      "item": "BUG",
+      "data": "1X40 ST",
+      "type": "1X40 ST",
+      "opening_balance": 6600,
+      "price": 1.4,
+      "min_qty": 500
+    },
+    {
+      "group": "BUG",
+      "item": "BUG",
+      "data": "2X40 L",
+      "type": "2X40 L",
+      "opening_balance": 3000,
+      "price": 4.25,
+      "min_qty": 500
+    },
+    {
+      "group": "BUG",
+      "item": "BUG",
+      "data": "2X40 ST",
+      "type": "2X40 ST",
+      "opening_balance": 2200,
+      "price": 2.75,
+      "min_qty": 500
+    },
+    {
+      "group": "BUG",
+      "item": "BUG-BOX 14 X2",
+      "data": "BOX TYPE",
+      "type": "RAJIB",
+      "opening_balance": 1600,
+      "price": 1.4,
+      "min_qty": 0
+    },
+    {
+      "group": "BUZZER",
+      "item": "PCB MOUNTED",
+      "data": null,
+      "type": null,
+      "opening_balance": 800,
+      "price": 0,
+      "min_qty": 200
+    },
+    {
+      "group": "CAP",
+      "item": "MOV",
+      "data": "07/25V",
+      "type": "MOV",
+      "opening_balance": 1600,
+      "price": 1.5,
+      "min_qty": 0
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "2200/25",
+      "type": "aecon",
+      "opening_balance": 17450,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "CAP",
+      "item": "AEC-22 PF",
+      "data": "22",
+      "type": null,
+      "opening_balance": 500,
+      "price": 0.22,
+      "min_qty": 0
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "100/25",
+      "type": null,
+      "opening_balance": 6000,
+      "price": 0.69,
+      "min_qty": 0
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "100/16",
+      "type": null,
+      "opening_balance": 20000,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "1000/25",
+      "type": "AECON",
+      "opening_balance": 15650,
+      "price": 2.5,
+      "min_qty": 5000
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "1000/16",
+      "type": null,
+      "opening_balance": 7500,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CAP",
+      "item": "0603",
+      "data": "11NF/50V",
+      "type": "SMD VERSION",
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CAP",
+      "item": "MILER",
+      "data": "104 DEEP",
+      "type": "MILER 104",
+      "opening_balance": -79000,
+      "price": 0.2,
+      "min_qty": 2000
+    },
+    {
+      "group": "CAP",
+      "item": "MILER-SMD",
+      "data": "104 SMD",
+      "type": "SMD VERSION",
+      "opening_balance": 378487,
+      "price": 0,
+      "min_qty": 30000
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "470/16",
+      "type": "105 DEGREE",
+      "opening_balance": 20500,
+      "price": 1.2,
+      "min_qty": 5000
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "105",
+      "type": "SMD VERSION",
+      "opening_balance": 134280,
+      "price": 0,
+      "min_qty": 10000
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "470/10",
+      "type": null,
+      "opening_balance": 14000,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "106",
+      "type": "SMD VERSION",
+      "opening_balance": 79738,
+      "price": 0,
+      "min_qty": 10000
+    },
+    {
+      "group": "CAP",
+      "item": "CAP",
+      "data": "102",
+      "type": "DIP",
+      "opening_balance": 500,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CAP",
+      "item": "CAP-SMD 102",
+      "data": "102",
+      "type": "SMD VERSION",
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CLEANER",
+      "item": "CONINS",
+      "data": "ELCLEAN",
+      "type": null,
+      "opening_balance": -1,
+      "price": 1.3,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN PRC",
+      "item": "9 PIN MALE",
+      "data": "MALE",
+      "type": "9 PIN PRC",
+      "opening_balance": -1000,
+      "price": 1.35,
+      "min_qty": 1000
+    },
+    {
+      "group": "CONN PRC",
+      "item": "9 PIN FEMALE",
+      "data": "FEMALE",
+      "type": "9 PIN PRC",
+      "opening_balance": 1845,
+      "price": 9,
+      "min_qty": 500
+    },
+    {
+      "group": "CONN PRC",
+      "item": "NEW PRC",
+      "data": "4 WIRE POLE",
+      "type": "100 CM",
+      "opening_balance": 100,
+      "price": 0,
+      "min_qty": 200
+    },
+    {
+      "group": "CONN PRC",
+      "item": "NEW PRC",
+      "data": "4 WIREPNL",
+      "type": "45 CM",
+      "opening_balance": 250,
+      "price": 0,
+      "min_qty": 500
+    },
+    {
+      "group": "CONN PRC",
+      "item": "NEW PRC 2515",
+      "data": "4 PIN ST",
+      "type": "MALE",
+      "opening_balance": 2000,
+      "price": 0,
+      "min_qty": 1000
+    },
+    {
+      "group": "CONN PRC",
+      "item": "NEW PRC 2515",
+      "data": "4 PIN L",
+      "type": "MALE",
+      "opening_balance": 2000,
+      "price": 0,
+      "min_qty": 1000
+    },
+    {
+      "group": "CRISTEL",
+      "item": "8 MHZ",
+      "data": null,
+      "type": null,
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CRISTEL",
+      "item": "16 MHZ",
+      "data": null,
+      "type": null,
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CRISTEL",
+      "item": "22 MHZ",
+      "data": null,
+      "type": null,
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-FML",
+      "item": "5 PIN",
+      "data": "FEMALE",
+      "type": "5 PIN",
+      "opening_balance": 270,
+      "price": 3,
+      "min_qty": 100
+    },
+    {
+      "group": "CONN-FML",
+      "item": "2 PIN",
+      "data": "FEMALE",
+      "type": "2 PIN",
+      "opening_balance": 100,
+      "price": 2.4,
+      "min_qty": 100
+    },
+    {
+      "group": "CONN-FML",
+      "item": "3 PIN",
+      "data": "FEMALE",
+      "type": "3 PIN",
+      "opening_balance": 120,
+      "price": 1.8,
+      "min_qty": 100
+    },
+    {
+      "group": "CONN-FML",
+      "item": "4 PIN",
+      "data": "FEMALE",
+      "type": "4 PIN",
+      "opening_balance": 40,
+      "price": 2.65,
+      "min_qty": 100
+    },
+    {
+      "group": "CONN-FML",
+      "item": "6 PIN CPU",
+      "data": "FEMALE",
+      "type": "6 pin cpu",
+      "opening_balance": 400,
+      "price": 9,
+      "min_qty": 200
+    },
+    {
+      "group": "CONN-FML",
+      "item": "6 PIN 2510",
+      "data": "FEMALE",
+      "type": "6 PIN",
+      "opening_balance": 1000,
+      "price": 7.2,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-M/F",
+      "item": "14 PIN FRC",
+      "data": "FRC",
+      "type": "14 PIN M/F",
+      "opening_balance": 740,
+      "price": 3.5,
+      "min_qty": 200
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "TAJ",
+      "data": "2 PIN PBT",
+      "type": "2.5 PITCH",
+      "opening_balance": 500,
+      "price": 1.2,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "2510-6 PIN",
+      "type": "MALE",
+      "opening_balance": 5190,
+      "price": 0.78,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "2510-2 PIN",
+      "type": "MALE",
+      "opening_balance": 2000,
+      "price": 0.24,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "2510-3 PIN",
+      "type": "MALE",
+      "opening_balance": 4000,
+      "price": 0.33,
+      "min_qty": 4000
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "2510-4 PIN",
+      "type": "MALE",
+      "opening_balance": 1400,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "2510-5 PIN",
+      "type": "MALE",
+      "opening_balance": 8000,
+      "price": 0.55,
+      "min_qty": 4000
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "CPU 6 PIN",
+      "type": "MALE-CPU",
+      "opening_balance": 17500,
+      "price": 1.8,
+      "min_qty": 4000
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "CPU 2 PIN",
+      "type": "MALE CPU",
+      "opening_balance": 1080,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "CPU 3 PIN",
+      "type": "MALE-CPU",
+      "opening_balance": 500,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-MALE",
+      "item": "CONNECTOR",
+      "data": "CPU 4 PIN",
+      "type": "MALE CPU",
+      "opening_balance": 1180,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "CONN-RS232",
+      "item": "RS232.",
+      "data": "9 PIN D",
+      "type": "CONNECTOR",
+      "opening_balance": 200,
+      "price": 10,
+      "min_qty": 0
+    },
+    {
+      "group": "DIOD",
+      "item": "DIODE",
+      "data": 5408,
+      "type": "DIOD 5408",
+      "opening_balance": 300,
+      "price": 0.36,
+      "min_qty": 0
+    },
+    {
+      "group": "DIOD",
+      "item": "DIODE",
+      "data": "4148-SMD",
+      "type": "ZENER",
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "DIOD",
+      "item": "DIODE",
+      "data": "4148-DIP",
+      "type": "ZENER",
+      "opening_balance": 38000,
+      "price": 0.265,
+      "min_qty": 5000
+    },
+    {
+      "group": "DIOD",
+      "item": "DIODE",
+      "data": 4007,
+      "type": "HORNBY",
+      "opening_balance": -25500,
+      "price": 0.36,
+      "min_qty": 5000
+    },
+    {
+      "group": "DIOD",
+      "item": "DIODE",
+      "data": "M 7 F",
+      "type": "SMD VERSION",
+      "opening_balance": 7379,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "DIOD",
+      "item": "BRIDGE",
+      "data": "MB10F MMD",
+      "type": "SMD VERSION",
+      "opening_balance": 2300,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "DIOD",
+      "item": "SS-14",
+      "data": "SS-14",
+      "type": "SMD VERSION",
+      "opening_balance": 83879,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "DIOD",
+      "item": "DIODE",
+      "data": "18v/1w",
+      "type": "ZENER",
+      "opening_balance": 2200,
+      "price": 0.29,
+      "min_qty": 500
+    },
+    {
+      "group": "DIOD",
+      "item": "5V ZENER",
+      "data": "5V",
+      "type": "ZENER",
+      "opening_balance": 10000,
+      "price": 0.48,
+      "min_qty": 0
+    },
+    {
+      "group": "DOM",
+      "item": "DOM",
+      "data": null,
+      "type": "DOM",
+      "opening_balance": 80000,
+      "price": 0.22,
+      "min_qty": 10000
+    },
+    {
+      "group": "DP FND",
+      "item": "SEGMENT .8",
+      "data": ".8 GRN 1X1",
+      "type": "SEGMENT",
+      "opening_balance": 1803,
+      "price": 5.6,
+      "min_qty": 1500
+    },
+    {
+      "group": "DP FND",
+      "item": "SEGMENT 0.5",
+      "data": ".5 GRN 1X1",
+      "type": "SEGMENT 0.5",
+      "opening_balance": 44590,
+      "price": 3.25,
+      "min_qty": 5000
+    },
+    {
+      "group": "DP FND",
+      "item": "SEGMENT 0.5",
+      "data": ".5 RED 1X1",
+      "type": "SEGMENT 0.5",
+      "opening_balance": 4100,
+      "price": 2.6,
+      "min_qty": 5000
+    },
+    {
+      "group": "DP FND",
+      "item": "DP 3/1",
+      "data": "RED.8",
+      "type": "3X1",
+      "opening_balance": 0,
+      "price": 20,
+      "min_qty": 0
+    },
+    {
+      "group": "DP FND",
+      "item": "DP 3/1",
+      "data": "GREEN .8",
+      "type": "3X1",
+      "opening_balance": -1300,
+      "price": 22,
+      "min_qty": 0
+    },
+    {
+      "group": "DP FND",
+      "item": "DP 3/1",
+      "data": "GREEN.56",
+      "type": "3X1",
+      "opening_balance": -100,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "DP FND CC",
+      "item": "SEGMENT .56-CC",
+      "data": ".5 GRN",
+      "type": "NEW PRC",
+      "opening_balance": 4800,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "DP FND CC",
+      "item": "SEGMENT .56-CC",
+      "data": ".5 RED 1X1",
+      "type": "NEW PRC",
+      "opening_balance": 6000,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "DP GND CA",
+      "item": "1X1 WHIGHT",
+      "data": null,
+      "type": null,
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "DP JUMBO FND",
+      "item": "CA",
+      "data": null,
+      "type": "1.5 INCH",
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "FLUX-SOLDER",
+      "item": "ICM",
+      "data": "FLUX",
+      "type": 109,
+      "opening_balance": 10,
+      "price": 205,
+      "min_qty": 20
+    },
+    {
+      "group": "FRC CABLE",
+      "item": "14 PIN",
+      "data": "DP CABLE",
+      "type": null,
+      "opening_balance": 1,
+      "price": 238,
+      "min_qty": 0
+    },
+    {
+      "group": "HEAT SHINK BIG",
+      "item": "HEATSINK",
+      "data": "BIG",
+      "type": "HEATSINK",
+      "opening_balance": 20500,
+      "price": 2.5,
+      "min_qty": 5000
+    },
+    {
+      "group": "HEAT SHINK.SML",
+      "item": "HEATSINK",
+      "data": "SMALL",
+      "type": "HEATSINK",
+      "opening_balance": 13600,
+      "price": 1.7,
+      "min_qty": 5000
+    },
+    {
+      "group": "IC",
+      "item": "24CO2",
+      "data": "ATMEL",
+      "type": "5460",
+      "opening_balance": 1000,
+      "price": 5,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "24 C 64.(PRC MEMORY)",
+      "data": "ATMEL",
+      "type": null,
+      "opening_balance": 1600,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "IC BD 882",
+      "data": "BD 882",
+      "type": "IC BD 882",
+      "opening_balance": 100,
+      "price": 1.5,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "eprom 052",
+      "data": "78E052D",
+      "type": "IC FR 5460",
+      "opening_balance": 350,
+      "price": 56,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "IC IMPEX",
+      "data": "BD 140",
+      "type": "IC IMPEX",
+      "opening_balance": 0,
+      "price": 2,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "IC ADC 5460",
+      "data": "CS 5460",
+      "type": "IC ADC 5460",
+      "opening_balance": 39,
+      "price": 75,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "N79E352 RADG",
+      "data": "EPROM",
+      "type": "352.PRC.JEW",
+      "opening_balance": 350,
+      "price": 57,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "74HCT 138",
+      "data": "PRC  DP",
+      "type": "IC 138",
+      "opening_balance": 475,
+      "price": 6.5,
+      "min_qty": 1000
+    },
+    {
+      "group": "IC",
+      "item": "WCH 340 N",
+      "data": "USB IC",
+      "type": "CH 340",
+      "opening_balance": 3400,
+      "price": 0,
+      "min_qty": 1500
+    },
+    {
+      "group": "IC",
+      "item": "IC RS 232",
+      "data": "RS232",
+      "type": "MAX",
+      "opening_balance": -35,
+      "price": 8.5,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "MM32F0141C4P",
+      "data": "PRC NEW",
+      "type": "SMD VERSION",
+      "opening_balance": -1835,
+      "price": 12.5,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "SMD",
+      "data": "TM 1637",
+      "type": "NOVA-SMD",
+      "opening_balance": 5891,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "IC",
+      "item": "SMD",
+      "data": "TM 1640",
+      "type": "SMD VERSION",
+      "opening_balance": 1120,
+      "price": 21,
+      "min_qty": 1000
+    },
+    {
+      "group": "IC",
+      "item": "MG82F6D17AL20",
+      "data": "MEGAWIN",
+      "type": "20 PIN SMD",
+      "opening_balance": -11881,
+      "price": 20,
+      "min_qty": 5000
+    },
+    {
+      "group": "IC",
+      "item": "MG82F6D17AE20",
+      "data": "MEGAWIN",
+      "type": "20 PIN DIP",
+      "opening_balance": 5280,
+      "price": 42,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "HX710ADC",
+      "data": "HX710-DIP",
+      "type": "HX710-DIP",
+      "opening_balance": -1100,
+      "price": 13.5,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "HX710.SMD.CT7133",
+      "data": "HX 710-SMD",
+      "type": "7711 SMD.ADC",
+      "opening_balance": 22629,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "IC",
+      "item": "IC LM 7808",
+      "data": "LM7808",
+      "type": null,
+      "opening_balance": 17700,
+      "price": 4.65,
+      "min_qty": 5000
+    },
+    {
+      "group": "IC",
+      "item": "IC7805",
+      "data": "IC 7805",
+      "type": "CHINIES",
+      "opening_balance": 6500,
+      "price": 7,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "4148",
+      "data": "4148",
+      "type": "NON USE",
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "MM32G0001A6TA",
+      "data": "28 PIN",
+      "type": "PIN",
+      "opening_balance": 500,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "IC",
+      "item": "MM32G0001A6TA",
+      "data": "MINI PCB 8pin",
+      "type": "SMD VERSION",
+      "opening_balance": 18579,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "JUNCTION",
+      "item": "TRIMPOT-104",
+      "data": "3296W100K",
+      "type": "chinies.good.qlt",
+      "opening_balance": 600,
+      "price": 6.5,
+      "min_qty": 0
+    },
+    {
+      "group": "JUNCTION",
+      "item": "CONNECTOR",
+      "data": "PBT 2 PIN",
+      "type": "CONNECTOR",
+      "opening_balance": 800,
+      "price": 1.6,
+      "min_qty": 0
+    },
+    {
+      "group": "JUNCTION",
+      "item": "CONNECTOR",
+      "data": "PBT3 PIN",
+      "type": "CONNECTOR",
+      "opening_balance": 600,
+      "price": 2.4,
+      "min_qty": 0
+    },
+    {
+      "group": "LAQUARE",
+      "item": "BOTTLE",
+      "data": "BOTTLE",
+      "type": null,
+      "opening_balance": -5,
+      "price": 850,
+      "min_qty": 0
+    },
+    {
+      "group": "LED",
+      "item": "2 PIN",
+      "data": "SINGLE",
+      "type": "2 PIN",
+      "opening_balance": 500,
+      "price": 0.75,
+      "min_qty": 0
+    },
+    {
+      "group": "LED",
+      "item": "3 PIN.",
+      "data": "DUEL",
+      "type": "3 PIN.",
+      "opening_balance": 4000,
+      "price": 1,
+      "min_qty": 0
+    },
+    {
+      "group": "REG",
+      "item": "10K",
+      "data": "10K",
+      "type": "DEEP",
+      "opening_balance": -5000,
+      "price": 0.09,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "10K",
+      "data": "10K",
+      "type": "SMD VERSION",
+      "opening_balance": 11890,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "10E",
+      "data": "10E",
+      "type": "SMD VERSION",
+      "opening_balance": 3000,
+      "price": 0.08,
+      "min_qty": 0
+    },
+    {
+      "group": "REG",
+      "item": "10E",
+      "data": "10E",
+      "type": "DEEP",
+      "opening_balance": 10000,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "REG",
+      "item": "1K",
+      "data": "1K",
+      "type": "DEEP",
+      "opening_balance": 4000,
+      "price": 0.08,
+      "min_qty": 0
+    },
+    {
+      "group": "REG",
+      "item": "1K",
+      "data": "1K",
+      "type": "SMD VERSION",
+      "opening_balance": 1070,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "1E/1W",
+      "data": "1E/1W",
+      "type": "CFR-DIP",
+      "opening_balance": 42000,
+      "price": 0.41,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "1E/1W",
+      "data": "1E/1W",
+      "type": "SMD VERSION",
+      "opening_balance": 5700,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "REG",
+      "item": "0E",
+      "data": "OE",
+      "type": "SMD VERSION",
+      "opening_balance": 1800,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "0E",
+      "data": "OE",
+      "type": "DEEP",
+      "opening_balance": 5000,
+      "price": 0.09,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "100E",
+      "data": "100E",
+      "type": "DEEP",
+      "opening_balance": 50000,
+      "price": 0.08,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "100E",
+      "data": "100E",
+      "type": "SMD VERSION",
+      "opening_balance": 10000,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "56E",
+      "data": "56E",
+      "type": "DEEP",
+      "opening_balance": 10000,
+      "price": 0.09,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "56E",
+      "data": "56E",
+      "type": "SMD VERSION",
+      "opening_balance": 163400,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "100K",
+      "data": "100K",
+      "type": "DEEP",
+      "opening_balance": 9500,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "100K",
+      "data": "100K",
+      "type": "SMD VERSION",
+      "opening_balance": 1500,
+      "price": 0.09,
+      "min_qty": 0
+    },
+    {
+      "group": "REG",
+      "item": "1.8K",
+      "data": "1.8K",
+      "type": "CFR",
+      "opening_balance": 5000,
+      "price": 0.09,
+      "min_qty": 1000
+    },
+    {
+      "group": "REG",
+      "item": "360E",
+      "data": "360E",
+      "type": "MFR",
+      "opening_balance": 5500,
+      "price": 0.09,
+      "min_qty": 1000
+    },
+    {
+      "group": "REG",
+      "item": "330K",
+      "data": "330K",
+      "type": "CFR",
+      "opening_balance": 10000,
+      "price": 0.09,
+      "min_qty": 1000
+    },
+    {
+      "group": "REG",
+      "item": "2.2K",
+      "data": "2K2",
+      "type": "CFR",
+      "opening_balance": 5000,
+      "price": 0.09,
+      "min_qty": 1000
+    },
+    {
+      "group": "REG",
+      "item": "15K",
+      "data": "15K",
+      "type": "CFR",
+      "opening_balance": 4500,
+      "price": 0.09,
+      "min_qty": 1000
+    },
+    {
+      "group": "REG",
+      "item": "22K",
+      "data": "22K",
+      "type": "CFR",
+      "opening_balance": 0,
+      "price": 0.09,
+      "min_qty": 0
+    },
+    {
+      "group": "REG",
+      "item": "47 E",
+      "data": "4k7",
+      "type": "DIP-MFR",
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 1000
+    },
+    {
+      "group": "REG",
+      "item": "3K3",
+      "data": "3K3",
+      "type": "CFR",
+      "opening_balance": -85000,
+      "price": 0.08,
+      "min_qty": 5000
+    },
+    {
+      "group": "REG",
+      "item": "10E",
+      "data": "10E",
+      "type": "MFR",
+      "opening_balance": 5000,
+      "price": 0.25,
+      "min_qty": 0
+    },
+    {
+      "group": "SCREW",
+      "item": "SCREW WALE",
+      "data": "2 X 4.5",
+      "type": null,
+      "opening_balance": 9800,
+      "price": 1.65,
+      "min_qty": 5000
+    },
+    {
+      "group": "SCREW",
+      "item": "ROMA.",
+      "data": "M2X6",
+      "type": "SELF TAPPING",
+      "opening_balance": 1000,
+      "price": 0,
+      "min_qty": 5000
+    },
+    {
+      "group": "SCREW",
+      "item": "SCREW WALE",
+      "data": "3X6",
+      "type": "COMBO",
+      "opening_balance": 29000,
+      "price": 0.15,
+      "min_qty": 5000
+    },
+    {
+      "group": "SOCKET",
+      "item": "FUSE HOLDER",
+      "data": "FUZE",
+      "type": "BOX",
+      "opening_balance": 2000,
+      "price": 1.5,
+      "min_qty": 0
+    },
+    {
+      "group": "SOCKET",
+      "item": "SOCKET 40 PIN",
+      "data": "40 PIN",
+      "type": "SOCKET 40 PIN",
+      "opening_balance": -335,
+      "price": 2.8,
+      "min_qty": 200
+    },
+    {
+      "group": "SOCKET",
+      "item": "SOCKET",
+      "data": "20 PIN",
+      "type": "SOCKET",
+      "opening_balance": 600,
+      "price": 1.35,
+      "min_qty": 200
+    },
+    {
+      "group": "SOCKET",
+      "item": "8 PIN IC",
+      "data": "8 PIN",
+      "type": null,
+      "opening_balance": -1000,
+      "price": 0.64,
+      "min_qty": 200
+    },
+    {
+      "group": "SOLDER",
+      "item": "WHIRE",
+      "data": "WIRE REEL",
+      "type": "reel .500",
+      "opening_balance": 8,
+      "price": 1100,
+      "min_qty": 10
+    },
+    {
+      "group": "SOLDER",
+      "item": "STICK.KG",
+      "data": "SOLDER",
+      "type": "STICK.KG",
+      "opening_balance": 19,
+      "price": 2000,
+      "min_qty": 2
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "LM-7533-HT-ORIGINAL",
+      "data": null,
+      "type": null,
+      "opening_balance": 1000,
+      "price": 1.75,
+      "min_qty": 0
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "LM 7533-CHINA",
+      "data": null,
+      "type": null,
+      "opening_balance": 3000,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "BD140",
+      "data": null,
+      "type": null,
+      "opening_balance": 0,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "LM 336",
+      "data": null,
+      "type": null,
+      "opening_balance": 50,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "LM 317",
+      "data": "LM 317-ACC",
+      "type": "IC",
+      "opening_balance": 3200,
+      "price": 12.5,
+      "min_qty": 500
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "TRANSISTOR",
+      "data": "LM 336.2.5V",
+      "type": "TRANSISTOR",
+      "opening_balance": 50,
+      "price": 30,
+      "min_qty": 0
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "TRANSISTOR",
+      "data": "TL431",
+      "type": "TRANSISTOR",
+      "opening_balance": 100,
+      "price": 2,
+      "min_qty": 0
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "2950 5V",
+      "data": "2950 5V",
+      "type": "5v",
+      "opening_balance": 31500,
+      "price": 25,
+      "min_qty": 2000
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "2950 3.3V",
+      "data": "LM2950",
+      "type": "3.3V",
+      "opening_balance": 7000,
+      "price": 4.4,
+      "min_qty": 2000
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "CR 2402 3.3",
+      "data": "SMD",
+      "type": "7550.3.3",
+      "opening_balance": 4000,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "CR 2402 5.0",
+      "data": "SMD",
+      "type": "7550-5v",
+      "opening_balance": 1000,
+      "price": 0,
+      "min_qty": 0
+    },
+    {
+      "group": "TRANSISTER",
+      "item": "TRANSISTOR",
+      "data": "BC557",
+      "type": "BC-557",
+      "opening_balance": -78000,
+      "price": 0.335,
+      "min_qty": 2000
+    },
+    {
+      "group": "TRANSISTOR",
+      "item": "IC IMPAX",
+      "data": "LM 358 DIP",
+      "type": "IC IMPAX",
+      "opening_balance": 50,
+      "price": 5,
+      "min_qty": 0
+    },
+    {
+      "group": "USB",
+      "item": "USB",
+      "data": "USB",
+      "type": null,
+      "opening_balance": 1520,
+      "price": 120,
+      "min_qty": 200
+    }
+  ],
+  "pcb": [
+    {
+      "pcb_number": null,
+      "name": "KEY PAD SIDE CONNECTOR.4K",
+      "opening_balance": 49,
+      "price": 7,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 5636,
+      "name": "5460 MB.SS",
+      "opening_balance": 0,
+      "price": 29.42,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 6450,
+      "name": "4 key key pad",
+      "opening_balance": 50,
+      "price": 5,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 7236,
+      "name": "DISPLAY .8 (1X1)EESAA",
+      "opening_balance": 0,
+      "price": 12.5,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 8218,
+      "name": "5460 SAVER-PTH",
+      "opening_balance": 0,
+      "price": 39.52,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": null,
+      "name": "DISPLAY.8(1X3)",
+      "opening_balance": 0,
+      "price": 15,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 168,
+      "name": "IPA BT BK",
+      "opening_balance": 10,
+      "price": 12.8,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 10015,
+      "name": "JUNCTION.4.JUMPER",
+      "opening_balance": 100,
+      "price": 27.26,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 10812,
+      "name": "PRC PNL 655",
+      "opening_balance": -80,
+      "price": 42.16,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 10872,
+      "name": "PRC PNK.556 GENERAL",
+      "opening_balance": 194,
+      "price": 42.17,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 13017,
+      "name": "RS232 9 PIN CONN",
+      "opening_balance": 0,
+      "price": 3.13,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 14119,
+      "name": "CONNECTOR CARD",
+      "opening_balance": 119,
+      "price": 3.7,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 14151,
+      "name": "PRC KEY SQ.SFL TYPE",
+      "opening_balance": 100,
+      "price": 27.7,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 14152,
+      "name": "PRC IND PNL SQ.PTH",
+      "opening_balance": 40,
+      "price": 47,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 14241,
+      "name": "PRC.PNL.556.MANJU",
+      "opening_balance": 0,
+      "price": 42.17,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 14332,
+      "name": "PRC KEYPAD PCB",
+      "opening_balance": 455,
+      "price": 31.75,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 14372,
+      "name": "PRC.PNL.TRANS 2",
+      "opening_balance": 128,
+      "price": 42.16,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 16001,
+      "name": "PRC POLE.PCB",
+      "opening_balance": 106,
+      "price": 49.59,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 20036,
+      "name": "PRC MB",
+      "opening_balance": 378,
+      "price": 23.75,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 22047,
+      "name": "JUNCTION4L TO 8L.",
+      "opening_balance": 87,
+      "price": 22.32,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 23059,
+      "name": "Kapil Back Panel",
+      "opening_balance": 0,
+      "price": 38.81,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 25048,
+      "name": "PRC KEY SIDE CONN",
+      "opening_balance": 60,
+      "price": 27.7,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 26002,
+      "name": "HANGING.8 FND",
+      "opening_balance": 181,
+      "price": 28,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 26003,
+      "name": "HANG..56.P/S.ZEN.DP C",
+      "opening_balance": 350,
+      "price": 52,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": 27021,
+      "name": "4 WIRE EXT DP..S/S",
+      "opening_balance": 280,
+      "price": 7,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 28049,
+      "name": "POINT HANG-YES",
+      "opening_balance": 170,
+      "price": 33,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 29055,
+      "name": "charger 5v.YES YES",
+      "opening_balance": 140,
+      "price": 3.43,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 29062,
+      "name": "PRC.PNL.Z+AXPERT",
+      "opening_balance": -10,
+      "price": 37.52,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 29076,
+      "name": "PRC POLE.XPERT.EXPO",
+      "opening_balance": 0,
+      "price": 58,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 30038,
+      "name": "PRC .KEY.SQ.SIDE CON",
+      "opening_balance": 0,
+      "price": 35.72,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 30056,
+      "name": "ht 108 smd",
+      "opening_balance": 25,
+      "price": 14.5,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": 30087,
+      "name": "Rafiq Panel 655",
+      "opening_balance": 50,
+      "price": 38.81,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 31033,
+      "name": "CHRGER.IC-358.SAVER",
+      "opening_balance": 0,
+      "price": 15.28,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 33009,
+      "name": "EXPO.2 TRX.DSNPTH.",
+      "opening_balance": 0,
+      "price": 20.48,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 43067,
+      "name": "prc pole-bhopal",
+      "opening_balance": 200,
+      "price": 44.92,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 43069,
+      "name": "NEW PRC PNL DELTA",
+      "opening_balance": 0,
+      "price": 46.11,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 43070,
+      "name": "NEW PRC PNL DELTA",
+      "opening_balance": 0,
+      "price": 51.24,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 45091,
+      "name": "DISPLAY.JUMBO.1.5 INCH",
+      "opening_balance": 109,
+      "price": 35,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": 43099,
+      "name": "KEY PD.SQ.-WEIGH TECH-GONDIYA",
+      "opening_balance": 56,
+      "price": 26.78,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "NOVA HANG .8",
+      "opening_balance": 0,
+      "price": 23,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "THK MOTI-GANESH",
+      "opening_balance": 0,
+      "price": 18,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "NOVA-HANG .56",
+      "opening_balance": 0,
+      "price": 12,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "SFL-MAIN MB",
+      "opening_balance": -29,
+      "price": 40.21,
+      "min_qty": 500
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "MINI-4V",
+      "opening_balance": 25189,
+      "price": 10,
+      "min_qty": 1000
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "S99-DSPTH-BALAJI-",
+      "opening_balance": 510,
+      "price": 35,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "THK-NANI",
+      "opening_balance": 2475,
+      "price": 10,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "S-99..SFL",
+      "opening_balance": 1850,
+      "price": 19.8,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "THK MOTI MEGAWIN",
+      "opening_balance": 0,
+      "price": 18,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "CHINA",
+      "name": "NOVA-POS",
+      "opening_balance": 3600,
+      "price": 24.39,
+      "min_qty": 2000
+    },
+    {
+      "pcb_number": "HANG-SFL",
+      "name": "T3 .8 HANGING.VENKATA.PTH",
+      "opening_balance": 0,
+      "price": 57.33,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "NEW PRC",
+      "name": "NEW PRC POLE 41061",
+      "opening_balance": 119,
+      "price": 37,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": "NEW PRC",
+      "name": "NEW PRC PNL-41059-556",
+      "opening_balance": 161,
+      "price": 42,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": "NEW PRC",
+      "name": "NEW PRC PNL  41060..655",
+      "opening_balance": 440,
+      "price": 42,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": "NEW PRC",
+      "name": "NEW PRC MB",
+      "opening_balance": 0,
+      "price": 29.4,
+      "min_qty": 500
+    },
+    {
+      "pcb_number": "NEW PRC",
+      "name": "SU-45021..MAHARASTRA PNL.655",
+      "opening_balance": 105,
+      "price": 43,
+      "min_qty": 50
+    },
+    {
+      "pcb_number": "NEW PRC",
+      "name": "INDICATER FRN SQ PNL/POLE.PTH",
+      "opening_balance": 64,
+      "price": 55.8,
+      "min_qty": 100
+    },
+    {
+      "pcb_number": "NEW PRC",
+      "name": "NEW PRC PNL.45040",
+      "opening_balance": 0,
+      "price": 46.78,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "RS232 PCB",
+      "opening_balance": 60,
+      "price": 110,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL RED 14241",
+      "opening_balance": 0,
+      "price": 185,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "UNITY",
+      "opening_balance": 0,
+      "price": 155,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "BALAJI S99 DS",
+      "opening_balance": 126,
+      "price": 190,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "HANHING-POINT",
+      "opening_balance": 0,
+      "price": 185,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NOVA DP 4 WIRE GRN",
+      "opening_balance": 370,
+      "price": 80,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NOVA DP 4 WIRE RED",
+      "opening_balance": 0,
+      "price": 70,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "DP  8484 GREEN",
+      "opening_balance": 295,
+      "price": 40,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "5460 SAVER-PTH",
+      "opening_balance": 0,
+      "price": 286,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "SAVER CHARGER",
+      "opening_balance": 0,
+      "price": 149,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL 14372 GRN",
+      "opening_balance": 170,
+      "price": 220,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL 30087 GRN",
+      "opening_balance": 28,
+      "price": 220,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL 30087 RED",
+      "opening_balance": 0,
+      "price": 180,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL 10872 RED",
+      "opening_balance": 60,
+      "price": 180,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "SFL MB",
+      "opening_balance": 500,
+      "price": 155,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC MB",
+      "opening_balance": 0,
+      "price": 285,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "RC PNL RED 10812",
+      "opening_balance": 112,
+      "price": 185,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL RED 29062",
+      "opening_balance": 30,
+      "price": 185,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC POL RED",
+      "opening_balance": 31,
+      "price": 177,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC POL GRN",
+      "opening_balance": 86,
+      "price": 230,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NOVA NEW POS",
+      "opening_balance": 92,
+      "price": 150,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "INDICATOR GRN",
+      "opening_balance": 36,
+      "price": 240,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "MINI-GNS",
+      "opening_balance": 1053,
+      "price": 90,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "CHARGER-7808",
+      "opening_balance": 402,
+      "price": 50,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "DP  8484 RED",
+      "opening_balance": 158,
+      "price": 35,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "THAKOR MOTI",
+      "opening_balance": 25,
+      "price": 155,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL 10812-GRN",
+      "opening_balance": 82,
+      "price": 220,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL 10872 GRN",
+      "opening_balance": 124,
+      "price": 220,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC PNL 14372 RED",
+      "opening_balance": 35,
+      "price": 180,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NEW PRC INDICATER.PNL",
+      "opening_balance": 50,
+      "price": 37,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": ".8(1x) dp green",
+      "opening_balance": 0,
+      "price": 85,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "JUNCTION.10015 BIG",
+      "opening_balance": 30,
+      "price": 215,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "SU 29076.EXPO POLE.RED",
+      "opening_balance": 6,
+      "price": 200,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "SU 29076.EXPO POLE.GRN",
+      "opening_balance": 21,
+      "price": 210,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": ".8 HANG",
+      "opening_balance": 300,
+      "price": 210,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NOVA+USB",
+      "opening_balance": 252,
+      "price": 250,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "KEY PAD FULL",
+      "opening_balance": 50,
+      "price": 20,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "3 PIN LED/WHIRE",
+      "opening_balance": 450,
+      "price": 5,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC NEW MB",
+      "opening_balance": 207,
+      "price": 190,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "dp .8(3x1)",
+      "opening_balance": 33,
+      "price": 95,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "SFL S99",
+      "opening_balance": 150,
+      "price": 144,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": ".8 (3X1) DP RED",
+      "opening_balance": 59,
+      "price": 85,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "SU 30087 RAFIK",
+      "opening_balance": 50,
+      "price": 210,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "S-99 SAFAL TYPE",
+      "opening_balance": 300,
+      "price": 63,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "NANI THK",
+      "opening_balance": 678,
+      "price": 26.5,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "MINI",
+      "opening_balance": 1500,
+      "price": 32,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "NOVA HANG .8",
+      "opening_balance": 300,
+      "price": 68,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "NOVA HANG .56",
+      "opening_balance": 150,
+      "price": 55,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "BALAJI S-99",
+      "opening_balance": 71,
+      "price": 63,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "SAFAL.GNS",
+      "opening_balance": 500,
+      "price": 73,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "THK MOTI.",
+      "name": "GANESH/SB",
+      "opening_balance": 50,
+      "price": 44,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "NOVA +USB",
+      "opening_balance": 750,
+      "price": 65,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "PCB+SMD",
+      "name": "PRC NEW MB",
+      "opening_balance": 800,
+      "price": 70,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC NEW PNK 655 RED",
+      "opening_balance": 51,
+      "price": 210,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC NEW PNL 655 GRN",
+      "opening_balance": 125,
+      "price": 220,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC NEW POL GRN",
+      "opening_balance": 222,
+      "price": 210,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC NEW POL RED",
+      "opening_balance": 101,
+      "price": 200,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NOVA HANG .56 GRN 6V",
+      "opening_balance": 122,
+      "price": 165,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NOVA HANG .56 RED 6V",
+      "opening_balance": 20,
+      "price": 160,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "MINI 6V",
+      "opening_balance": 150,
+      "price": 95,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC KEY PAD",
+      "opening_balance": 50,
+      "price": 90,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NOV HANG .56 GRN..4V",
+      "opening_balance": 52,
+      "price": 165,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NANI THK 4V",
+      "opening_balance": 150,
+      "price": 220,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "NANI THK 6V",
+      "opening_balance": 295,
+      "price": 230,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC NEW INDICATER POL 45021 GRN",
+      "opening_balance": 147,
+      "price": 245,
+      "min_qty": 0
+    },
+    {
+      "pcb_number": "OK",
+      "name": "PRC NEW INDICATER POL 45021 RED",
+      "opening_balance": 10,
+      "price": 235,
+      "min_qty": 0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 25% 97%;
+    --foreground: 222 35% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 35% 11%;
+    --border: 214 20% 89%;
+    --input: 214 20% 89%;
+    --ring: 234 55% 35%;
+
+    --primary: 234 55% 30%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 214 25% 94%;
+    --secondary-foreground: 222 35% 15%;
+
+    --muted: 214 22% 94%;
+    --muted-foreground: 220 12% 42%;
+
+    --accent: 214 25% 94%;
+    --accent-foreground: 222 35% 15%;
+
+    --destructive: 4 72% 46%;
+    --destructive-foreground: 0 0% 100%;
+
+    --amber: 38 92% 42%;
+    --amber-foreground: 0 0% 100%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "cv11", "ss01";
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
