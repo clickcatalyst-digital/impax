@@ -28,12 +28,22 @@ for row in ws.iter_rows(min_row=2, max_row=ws.max_row):
             skipped.append({"row": row[0].row, "item": b, "reason": "no group/data/type - looks like a stray row"})
         continue
 
+    # K (STOCK) is normally =BALANCE+IN2-OUT3 (verified against every row with
+    # a working formula - zero mismatches). When K itself is broken (e.g. #REF!
+    # from a deleted cell), recompute it from BALANCE+IN2-OUT3 instead of just
+    # falling back to BALANCE alone, which would silently drop the IN2/OUT3 leg.
     if is_number(k):
         opening = k
+    elif k is None:
+        # No K formula at all for this row (never had a stage-2 IN2/OUT3
+        # entry) - BALANCE is genuinely the current stock, nothing broken.
+        opening = h if is_number(h) else 0
+    elif is_number(h) and is_number(i) and is_number(j):
+        opening = h + i - j
+        flagged.append({"row": row[0].row, "item": b, "reason": f"K column had a broken formula ({k!r}) - recomputed as BALANCE+IN2-OUT3 = {opening}"})
     elif is_number(h):
         opening = h
-        if k is not None:
-            flagged.append({"row": row[0].row, "item": b, "reason": f"K column had a broken formula ({k!r}) - used BALANCE column instead"})
+        flagged.append({"row": row[0].row, "item": b, "reason": f"K column had a broken formula ({k!r}) and IN2/OUT3 missing - used BALANCE column instead"})
     else:
         opening = 0
         flagged.append({"row": row[0].row, "item": b, "reason": f"no valid numeric stock found (K={k!r}, H={h!r}) - set to 0"})

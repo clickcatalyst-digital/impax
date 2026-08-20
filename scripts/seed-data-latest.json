@@ -383,7 +383,7 @@
       "item": "CONNECTOR",
       "data": "2510-3 PIN",
       "type": "MALE",
-      "opening_balance": 10000,
+      "opening_balance": 5000,
       "price": 0.33,
       "min_qty": 4000
     },
