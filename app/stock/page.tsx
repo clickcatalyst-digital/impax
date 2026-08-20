@@ -2,6 +2,7 @@
 
 import { AddItemDialog } from "@/components/add-item-dialog";
 import { ItemsTable } from "@/components/items-table";
+import { PrintButton } from "@/components/print-button";
 import { getStockItems } from "@/lib/db/queries";
 import { Badge } from "@/components/ui/badge";
 
@@ -18,8 +19,9 @@ export default async function StockPage() {
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Stock</h1>
           <p className="mt-1 text-sm text-muted-foreground">Manage stock items, quantities, and movements.</p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 print:hidden">
           <Badge variant="outline" className="bg-card">{items.length} items</Badge>
+          <PrintButton />
           <AddItemDialog category="stock" />
         </div>
       </div>

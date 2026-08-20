@@ -27,7 +27,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body className="min-h-screen font-sans antialiased">
         <div className="flex min-h-screen flex-col">
           {user && (
-            <header className="sticky top-0 z-40 border-b border-border/70 bg-card/90 backdrop-blur">
+            <header className="sticky top-0 z-40 border-b border-border/70 bg-card/90 backdrop-blur print:hidden">
               <div className="container flex flex-wrap items-center justify-between gap-3 py-3 sm:h-16 sm:flex-nowrap sm:py-0">
                 <Link href="/" className="flex items-center gap-2.5">
                   <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm">
