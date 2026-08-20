@@ -12,12 +12,12 @@ export default async function PcbPage() {
   const items = await getPcbItems();
 
   return (
-    <div className="space-y-7">
+    <div className="space-y-7 print:space-y-2">
       <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
         <div>
-          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-primary">Inventory</p>
-          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Blank PCB</h1>
-          <p className="mt-1 text-sm text-muted-foreground">Manage PCB inventory, quantities, and movements.</p>
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-primary print:hidden">Inventory</p>
+          <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl print:text-base">Blank PCB</h1>
+          <p className="mt-1 text-sm text-muted-foreground print:hidden">Manage PCB inventory, quantities, and movements.</p>
         </div>
         <div className="flex items-center gap-3 print:hidden">
           <Badge variant="outline" className="bg-card">{items.length} items</Badge>

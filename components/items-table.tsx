@@ -110,7 +110,7 @@ function SortableHead({
         )}
       >
         {label}
-        <Icon className={cn("h-3 w-3", active ? "opacity-100" : "opacity-40")} />
+        <Icon className={cn("h-3 w-3 print:hidden", active ? "opacity-100" : "opacity-40")} />
       </button>
     </TableHead>
   );
